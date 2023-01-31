@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel, CarouselItem } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import tenerife  from '../assets/Spain-Tenerife.jpg';
 import teide  from '../assets/teide.jpg';
 import blackSand  from '../assets/black-sand.jpg';
@@ -7,10 +7,10 @@ import blackSand  from '../assets/black-sand.jpg';
 export default class CarouselBox extends Component{
   render(){
     return(
-      <Carousel>
+      <Carousel className=''>
         <Carousel.Item>
           <img
-            className='d-block w-100 h-80'
+            className='d-block w-100'
             src={tenerife}
             alt='tenerife'
           />
@@ -21,7 +21,7 @@ export default class CarouselBox extends Component{
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className='d-block w-100 h-15'
+            className='d-block w-100'
             src={teide}
             alt='teide'
           />
@@ -32,7 +32,7 @@ export default class CarouselBox extends Component{
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className='d-block w-100 h-80'
+            className='d-block w-100'
             src={blackSand}
             alt='blackSand'
           />
