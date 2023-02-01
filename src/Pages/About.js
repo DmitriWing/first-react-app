@@ -26,7 +26,6 @@ export default class About extends Component{
                 <Nav.Item>
                   <Nav.Link eventKey='fifth'>Libraries</Nav.Link>
                 </Nav.Item>
-
               </Nav>
             </Col>
 
