@@ -5,7 +5,7 @@ import { Container, Tab, Nav, Row, Col, TabPane } from 'react-bootstrap';
 export default class About extends Component{
   render() {
     return (
-      <Container className='mt-3 shadow-sm w-75'>
+      <Container className='mt-3 shadow w-75 rounded'>
         <h2 className='h2 text-center p-3'>It's all about us</h2>
         <Tab.Container id='ledt-tabs-example' defaultActiveKey='first'>
           <Row>

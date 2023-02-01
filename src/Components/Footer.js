@@ -18,7 +18,7 @@ export class Footer extends Component {
 
             </Navbar> */}
 
-            <footer className='footer bg-dark fixed-bottom p-3'>
+            <footer className='footer bg-dark fixed-bottom p-3' style={{height: '6vh'}}>
             <img
                 src={logo}
                 height={30}
