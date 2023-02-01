@@ -6,7 +6,7 @@ export default class About extends Component{
   render() {
     return (
       <Container className='mt-3 shadow-sm'>
-        <h2 className='h2 text-center p-3'>It's all about us</h2>
+        <h2 className='h2 text-center p-3'>It's all ABOUT us</h2>
         <Tab.Container id='ledt-tabs-example' defaultActiveKey='first'>
           <Row>
             <Col sm={12}>
