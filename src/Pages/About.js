@@ -7,8 +7,9 @@ export default class About extends Component{
     return (
       <Container className='mt-3 shadow w-75 rounded'>
         <h2 className='h2 text-center p-3'>It's all about us</h2>
+
         <Tab.Container id='ledt-tabs-example' defaultActiveKey='first'>
-          <Row>
+          <Row className=''>
             <Col sm={12}>
               <Nav fill variant='tabs' className='navbar navbar-light navbar-text bg-light rounded-2'>
                 <Nav.Item>

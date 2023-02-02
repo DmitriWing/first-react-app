@@ -7,9 +7,9 @@ import blackSand  from '../assets/black-sand.jpg';
 export default class CarouselBox extends Component{
   render(){
     return(
-      <Carousel fade className=''>
+      <Carousel fade>
         
-        <Carousel.Item className='' style={{height: '88vh',}}>
+        <Carousel.Item style={{height: '88vh',}}>
           <img
             className='d-block'
             src={tenerife}
@@ -20,6 +20,7 @@ export default class CarouselBox extends Component{
             <p>The paradise on the Earth</p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item style={{height: '88vh',}}>
           <img
             className='d-block w-100'
@@ -31,6 +32,7 @@ export default class CarouselBox extends Component{
             <p>The height of the volcano is 3783 meters above sea level</p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item style={{height: '88vh',}}>
           <img
             className='d-block w-100'
@@ -42,6 +44,7 @@ export default class CarouselBox extends Component{
             <p>There are a lot of beaches with volcano sand - black color</p>
           </Carousel.Caption>
         </Carousel.Item>
+        
       </Carousel>
     );
   }
